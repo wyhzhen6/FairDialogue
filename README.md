@@ -75,7 +75,7 @@ python evaluate.py --input sample_output.json --output results_snsr.json
 
 ---
 ## 🔹 Benchmark Results
-<img src="images/benchmark_plot.png" alt="Benchmark Results" width="600"/>
+<img src="assets/result.png" alt="Benchmark Results" width="600"/>
 
 Bias metrics across models for two tasks: 
 Decision: Group Unfairness Score (GUS),  Recommendation: Sensitive-to-Sensitive Similarity Range and Variance (SNSR and SNSV). 
