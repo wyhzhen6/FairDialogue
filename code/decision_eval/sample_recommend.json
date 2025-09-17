@@ -1,0 +1,7 @@
+[
+  {"seg_id": "seg1", "group": "elder_male", "decision": "yes"},
+  {"seg_id": "seg1", "group": "young_female", "decision": "no"},
+  {"seg_id": "seg1", "group": "young_male", "decision": "yes"},
+  {"seg_id": "seg2", "group": "elder_male", "decision": "no"},
+  {"seg_id": "seg2", "group": "young_female", "decision": "no"}
+]
