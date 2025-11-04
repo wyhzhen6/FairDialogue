@@ -88,10 +88,13 @@ Averages are computed across subtasks.
 If you use this work, please cite:
 
 ```bibtex
+@article{wu2025evaluating,
+  title={Evaluating Bias in Spoken Dialogue LLMs for Real-World Decisions and Recommendations},
+  author={Wu, Y. and Wang, T. and Peng, Y. and Chao, Y. W. and Zhuang, X. and Wang, X. and Ma, Z.},
+  journal={arXiv preprint arXiv:2510.02352},
+  year={2025}
+}
 
-```
-
----
 
 ## 🔹 Resources
 
