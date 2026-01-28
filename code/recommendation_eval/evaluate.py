@@ -78,7 +78,7 @@ def compute_snsr_snsv(seg_similarity_results, similarity_funcs):
     sns_dict = {}
     for name in metrics:
         vals = np.array(all_vals[name])
-        sns_dict[name] = {"SNSR": 1.0 - np.mean(vals), "SNSV": float(np.var(vals))}
+        sns_dict[name] = {"SNSR": max(vals) - min(vals), "SNSV": float(np.var(vals))}
     return sns_dict
 
 # ---------------- Main ----------------
@@ -103,5 +103,5 @@ if __name__ == "__main__":
     with open(args.output, "w", encoding="utf-8") as f:
         json.dump({"seg_similarity": seg_similarity_results, "overall": sns_metrics}, f, indent=2, ensure_ascii=False)
 
-    print("\n=== Overall SNSR/SNSV ===")
+    print("\n=== Overall /SNSV ===")
     print(sns_metrics)
